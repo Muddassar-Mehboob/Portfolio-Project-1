@@ -1,0 +1,119 @@
+/* Custom Styles For Navbar */
+.navbar {
+    background-color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: black;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item.dropdown:hover .nav-link {
+    border: 2px solid black;
+    color: black;
+}
+
+.dropdown-menu a {
+    color: black;
+
+
+}
+
+.dropdown-menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Language Dropdown */
+.language-dropdown .dropdown-toggle::after {
+    content: none;
+    /* Remove default caret icon */
+}
+
+.language-dropdown .dropdown-item:hover {
+    background-color: transparent;
+    /* Remove background color on hover */
+}
+
+.language-dropdown .dropdown-item.active {
+    font-weight: bold;
+}
+
+/* Search Icon Link */
+.search-icon-link:hover .search-icon {
+    color: yellow !important;
+}
+/* Navbar CSS Completed */
+/* section 17 CSS */
+.gem-divider {
+    margin-top: 45px;
+}
+
+.contact-title h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+
+.contact-title .divider {
+    width: 55px;
+    height: 3px;
+    background: #fbc300;
+    text-indent: 9999px;
+}
+
+.contact-info h6 {
+    font-size: 14px;
+}
+
+.contact-info h1 {
+    color: #fbc300;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #2c2c2c;
+}
+
+.contact-info span {
+    color: #fbc300;
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.btn-yellow {
+    background-color: #fbc300;
+    color: #000;
+    
+}
+
+.btn-yellow:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* section 17 CSS End*/
+/* Map CSS */
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  /* Map CSS End */
