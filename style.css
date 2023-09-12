@@ -50,7 +50,85 @@
 .search-icon-link:hover .search-icon {
     color: yellow !important;
 }
+
 /* Navbar CSS Completed */
+/* Section 5 CSS */
+
+/* Additional custom styling */
+.container5 {
+    background-image: url('sec5-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.container5 h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container5 h1 strong {
+    color: yellow;
+}
+
+.btn-sec5 {
+    background-color: yellow;
+    color: black;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+}
+
+.btn-sec5:hover {
+    background-color: white;
+    color: yellow;
+}
+
+/* Section 5 CSS End */
+
+
+/* Section 6 CSS  */
+.container6{
+    background-image: url('sec6-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 6 CSS End */
+
+/* Section 7 CSS  */
+.container7{
+    background-image: url('sec7-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Custom styling for list group items */
+.list-group-item {
+    background-color: transparent !important;
+    border: 1px solid #ccc !important; /* Light gray border */
+    font-size: 1.5rem;
+}
+
+/* Custom styling for the circular div */
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffc107; /* Bootstrap "warning" color */
+    margin-right: 10px;
+}
+/* Section 7 CSS End */
+
+
 /* section 17 CSS */
 .gem-divider {
     margin-top: 45px;
@@ -93,7 +171,7 @@
 .btn-yellow {
     background-color: #fbc300;
     color: #000;
-    
+
 }
 
 .btn-yellow:hover {
@@ -103,17 +181,19 @@
 
 /* section 17 CSS End*/
 /* Map CSS */
-.map-container-3{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-3 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
-  /* Map CSS End */
+.map-container-3 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-3 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Map CSS End */
