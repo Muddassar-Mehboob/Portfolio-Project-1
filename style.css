@@ -128,6 +128,185 @@
 }
 /* Section 7 CSS End */
 
+/* Section 8 CSS  */
+.container8{
+    background-image: url('sec8-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 8 CSS End */
+
+/* Section 9 CSS  */
+.sec-9-1{
+    background-image: url('sec-9-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* column 2 */
+.zoom-on-hover:hover {
+    transform: scale(2);
+  transition: all .2s linear;
+  }
+/* column 2 End */
+
+
+
+.sec-9-5{
+    background-image: url('sec-9-5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.sec-9-6{
+    background-image: url('sec-9-6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Define the default styles for the custom button */
+.custom-button9 {
+    background-color: #343a40; /* Dark background color */
+    width: 100%;
+    color: yellow; /* Text color */
+    font-size: 18px; /* Adjust font size for size */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for background color */
+}
+
+/* Define the hover effect */
+.custom-button9:hover {
+    background-color: yellow; /* Primary background color on hover */
+}
+.linesec9{
+    background-color: #343a40;
+    height: 1vh;
+}
+/* Section 9 CSS End */
+
+/* Section 10 CSS  */
+.container10-1{
+    background-image: url('sec-10-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 10 CSS End */
+
+
+/* Section 12 CSS  */
+.container12{
+    background-image: url('sec-12-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 12 CSS End */
+
+
+/* Section 13 CSS  */
+body{margin-top:20px;
+    color: black;
+    background: white;
+    position: relative;
+    height: 100%;
+}
+.pricing-plan {
+    margin: 0 0 1rem 0;
+    width: 100%;
+    position: relative;
+    background: white;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+   
+}
+.pricing-plan .pricing-header {
+    
+    padding-bottom: 1rem;
+    text-align: center;
+    -webkit-border-radius: 4px 4px 0px 0px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    border-radius: 4px 4px 0px 0px;
+}
+.pricing-plan .pricing-header .pricing-title {
+    font-size: 1.2rem;
+    color: black;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-cost {
+    color: black;
+    padding: 1rem 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 30px 10px rgba(0, 0, 0, 0.15);
+}
+.pricing-plan .pricing-header .pricing-save {
+    color: black;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.pricing-plan .pricing-features {
+    padding: 20px 0;
+    margin: 0;
+    text-align: left;
+    border-left: 1px solid #6a6d70;
+    border-right: 1px solid #6a6d70;
+}
+.pricing-plan .pricing-features li {
+    padding: 15px 15px 15px 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+    line-height: 100%;
+}
+
+.pricing-plan .pricing-footer {
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+    border-left: 1px solid #6a6d70;
+    border-right: 1px solid #6a6d70;
+    border-bottom: 1px solid #6a6d70;
+}
+
+@media (max-width: 767px) {
+    .pricing-plan .pricing-header {
+        text-align: center;
+    }
+    .pricing-plan .pricing-header i {
+        display: block;
+        float: none;
+        margin-bottom: 1.5rem;
+    }
+}
+/* Section 13 CSS End */
+
+
+
+
+/* Section 14 CSS  */
+.container14{
+    background-image: url('sec-14-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 14 CSS End */
+
 
 /* section 17 CSS */
 .gem-divider {
